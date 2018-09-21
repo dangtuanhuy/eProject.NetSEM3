@@ -159,6 +159,7 @@
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="Areas\Management\Controllers\PageController.cs" />
+    <Compile Include="Areas\Management\Controllers\RestaurantsController.cs" />
     <Compile Include="Areas\Management\Controllers\RoomsController.cs" />
     <Compile Include="Areas\Management\Controllers\TransportationsController.cs" />
     <Compile Include="Areas\Management\Controllers\VehiclesController.cs" />
@@ -1114,6 +1115,11 @@
     <Content Include="Areas\Management\Views\Transportations\Edit.cshtml" />
     <Content Include="Areas\Management\Views\Transportations\Index.cshtml" />
     <Content Include="Areas\Management\Views\Transportations\UploadTransportations.cshtml" />
+    <Content Include="Areas\Management\Views\Restaurants\Index.cshtml" />
+    <Content Include="Areas\Management\Views\Restaurants\Edit.cshtml" />
+    <Content Include="Areas\Management\Views\Restaurants\Delete.cshtml" />
+    <Content Include="Areas\Management\Views\Restaurants\Create.cshtml" />
+    <Content Include="Areas\Management\Views\Restaurants\UploadRestaurants.cshtml" />
     <None Include="Scripts\jquery-3.3.1.intellisense.js" />
     <Content Include="Scripts\jquery-3.3.1.js" />
     <Content Include="Scripts\jquery-3.3.1.min.js" />
