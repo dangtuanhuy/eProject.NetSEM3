@@ -158,6 +158,7 @@
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="Areas\Management\Controllers\FoodsController.cs" />
     <Compile Include="Areas\Management\Controllers\HotelsController.cs" />
     <Compile Include="Areas\Management\Controllers\PageController.cs" />
     <Compile Include="Areas\Management\Controllers\RestaurantsController.cs" />
@@ -1126,6 +1127,11 @@
     <Content Include="Areas\Management\Views\Hotels\Delete.cshtml" />
     <Content Include="Areas\Management\Views\Hotels\Create.cshtml" />
     <Content Include="Areas\Management\Views\Hotels\UploadHotels.cshtml" />
+    <Content Include="Areas\Management\Views\Foods\Index.cshtml" />
+    <Content Include="Areas\Management\Views\Foods\Edit.cshtml" />
+    <Content Include="Areas\Management\Views\Foods\Delete.cshtml" />
+    <Content Include="Areas\Management\Views\Foods\Create.cshtml" />
+    <Content Include="Areas\Management\Views\Foods\UploadFoods.cshtml" />
     <None Include="Scripts\jquery-3.3.1.intellisense.js" />
     <Content Include="Scripts\jquery-3.3.1.js" />
     <Content Include="Scripts\jquery-3.3.1.min.js" />
