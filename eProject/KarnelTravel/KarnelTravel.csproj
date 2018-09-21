@@ -160,6 +160,7 @@
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="Areas\Management\Controllers\PageController.cs" />
     <Compile Include="Areas\Management\Controllers\RoomsController.cs" />
+    <Compile Include="Areas\Management\Controllers\TransportationsController.cs" />
     <Compile Include="Areas\Management\Controllers\VehiclesController.cs" />
     <Compile Include="Areas\Management\ManagementAreaRegistration.cs" />
     <Compile Include="Controllers\HomeController.cs" />
@@ -1105,10 +1106,14 @@
     <Content Include="Areas\Management\Views\Vehicles\UploadVihicles.cshtml" />
     <Content Include="Areas\Management\Views\Rooms\Create.cshtml" />
     <Content Include="Areas\Management\Views\Rooms\Delete.cshtml" />
-    <Content Include="Areas\Management\Views\Rooms\Details.cshtml" />
     <Content Include="Areas\Management\Views\Rooms\Edit.cshtml" />
-    <Content Include="Areas\Management\Views\Rooms\Index.cshtml" />
     <Content Include="Areas\Management\Views\Rooms\UploadRooms.cshtml" />
+    <Content Include="Areas\Management\Views\Rooms\Index.cshtml" />
+    <Content Include="Areas\Management\Views\Transportations\Create.cshtml" />
+    <Content Include="Areas\Management\Views\Transportations\Delete.cshtml" />
+    <Content Include="Areas\Management\Views\Transportations\Details.cshtml" />
+    <Content Include="Areas\Management\Views\Transportations\Edit.cshtml" />
+    <Content Include="Areas\Management\Views\Transportations\Index.cshtml" />
     <None Include="Scripts\jquery-3.3.1.intellisense.js" />
     <Content Include="Scripts\jquery-3.3.1.js" />
     <Content Include="Scripts\jquery-3.3.1.min.js" />
