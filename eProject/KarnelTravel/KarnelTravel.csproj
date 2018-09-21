@@ -1111,9 +1111,9 @@
     <Content Include="Areas\Management\Views\Rooms\Index.cshtml" />
     <Content Include="Areas\Management\Views\Transportations\Create.cshtml" />
     <Content Include="Areas\Management\Views\Transportations\Delete.cshtml" />
-    <Content Include="Areas\Management\Views\Transportations\Details.cshtml" />
     <Content Include="Areas\Management\Views\Transportations\Edit.cshtml" />
     <Content Include="Areas\Management\Views\Transportations\Index.cshtml" />
+    <Content Include="Areas\Management\Views\Transportations\UploadTransportations.cshtml" />
     <None Include="Scripts\jquery-3.3.1.intellisense.js" />
     <Content Include="Scripts\jquery-3.3.1.js" />
     <Content Include="Scripts\jquery-3.3.1.min.js" />
